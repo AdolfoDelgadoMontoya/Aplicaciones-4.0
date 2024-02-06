@@ -19,7 +19,7 @@ export class LoginserviceService {
     return await this.authFirebase(u,p);
   }
   async uChecker(u:string){
-    return /[a-zA-Z0-9_-@.]/.test(u);
+    return /[a-zA-Z0-9]+@+[a-zA-Z0-9_-]+[a-zA-Z]{2,}/.test(u);
   }
 
   async pChecker(p:string){
