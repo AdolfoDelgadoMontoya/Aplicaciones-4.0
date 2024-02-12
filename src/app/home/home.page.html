@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Adolfo Delgado Montoya
     </ion-title>
     <ion-buttons slot="end">
       <ion-button (click)="nav('/login')">Login</ion-button>
@@ -13,12 +13,62 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">Adolfo Delgado Montoya</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <div id="carta">
+      <ion-grid [fixed]="true">
+
+        <ion-row>
+          <ion-col>
+            <ion-item>
+              <ion-img src="../../assets/Fotografia.jpg" alt="Fotografia"></ion-img>
+            </ion-item>
+          </ion-col>
+          <ion-col>
+            <h1>Adolfo Delgado Montoya</h1>
+            <ion-card>
+              <ion-card-header><ion-card-title><strong>Acerca de mí</strong></ion-card-title></ion-card-header>
+              <ion-card-content>
+                <p>
+                  ¡Hola! Soy Ana Adolfo,
+                  un apasionado desarrollador web backend junior en
+                  busca de oportunidades para crecer y aprender. 
+                  Mi enfoque se centra en la creación de aplicaciones
+                  sólidas utilizando tecnologías como Node.js y Express.
+                </p>
+              </ion-card-content>
+            </ion-card>
+            <ion-card>
+              <ion-card-header><ion-card-title><strong>Habilidades</strong></ion-card-title></ion-card-header>
+              <ion-card-content>
+                <ul>
+                  <li>Lenguajes de Programación: JavaScript (Node.js)</li>
+                  <li>Frameworks: Express</li>
+                  <li>Bases de Datos: Conocimientos básicos de MongoDB</li>
+                  <li>APIs: Conceptos básicos de desarrollo de API RESTful</li>
+                  <li>Control de Versiones: Git</li>
+                </ul>
+              </ion-card-content>
+            </ion-card>
+            <ion-card>
+              <ion-card-header><ion-card-title><strong>Educación</strong></ion-card-title></ion-card-header>
+              <ion-card-content>
+                <ul>
+                  <li>Cetis 62: Programación.</li>
+                  <li>Frameworks: Express</li>
+                  <li>ITESI: Ing. Sistemas computacionales.</li>
+                  <li>UTS: TSU. Desarrollo de software multiplataforma.</li>
+                </ul>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+
+      </ion-grid>
+
+    </div>
   </div>
 </ion-content>
